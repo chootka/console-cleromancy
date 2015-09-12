@@ -6,6 +6,6 @@ $.getJSON( "data/fortunes.json", function( data ) {
  
   $( "<ul/>", {
     "class": "fortunes",
-    html: items.join( "" )
+    html: fortunes.join( "" )
   }).appendTo( "#results" );
 });
