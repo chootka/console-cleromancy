@@ -67,11 +67,11 @@ echo "//////////////////////////////////"
 echo "// Access Point Settings"
 echo "// ~~~~~~~~~~~~~~~~~~~~~"
 echo ""
-read -p "Do you wish to continue and set up your Raspberry Pi as an Access Point? [N] " yn
+read -p "Do you wish to continue and set up your Raspberry Pi as a Clairvoyant Access Point? [N] " yn
 case $yn in
 	[Yy]* )
 		clear
-		echo "Configuring Raspberry Pi as Access Point..."
+		echo "Configuring Raspberry Pi as a Clairvoyant Access Point, capable of seeing your future..."
 		echo ""
 
 		# check that iw list does not fail with 'nl80211 not found'
